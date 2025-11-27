@@ -1,0 +1,129 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>FreshFood | Home</title>
+  
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+  
+  <link rel="stylesheet" href="{% static 'myapp/style.css' %}">
+
+
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <div class="logo">FreshFood</div>
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Recipes</a></li>
+        <li><a href="#">Blog</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+    <div class="icons">
+      <a href="#">🔍</a>
+      <a href="#">❤️</a>
+      <a href="#">👤</a>
+    </div>
+  </header>
+
+  <!-- Categories -->
+  <section class="categories">
+    <h2>Categories</h2>
+    <div class="cat-grid">
+      <div class="cat-item">🍳 Breakfast</div>
+      <div class="cat-item">🥗 Vegan</div>
+      <div class="cat-item">🍖 Meat</div>
+      <div class="cat-item">🍰 Dessert</div>
+      <div class="cat-item">🥪 Lunch</div>
+      <div class="cat-item">🍫 Chocolate</div>
+    </div>
+  </section>
+
+  <!-- Recipes -->
+  <section class="recipes">
+    <h2>Simple and tasty recipes</h2>
+    <p>Discover new flavors and cooking inspiration from our curated recipes.</p>
+
+    <div class="recipe-grid">
+      <div class="recipe-card">
+        <img src="https://www.theburntbuttertable.com/wp-content/uploads/2025/09/Chicken-and-bacon-pasta-1.jpg" alt="Burger">
+        <h3>Big and Juicy Wagyu Beef Cheeseburger</h3>
+        <p>⏱ 30 min | ⭐ 4.8</p>
+      </div>
+
+      <div class="recipe-card">
+        <img src="https://www.unileverfoodsolutions.com.my/dam/global-ufs/mcos/SEA/calcmenu/recipes/MY-recipes/fish-&-other-seafood-dishes/filet-salmon-panggang-sos-halia-lemon/main-header.jpg" alt="Salmon">
+        <h3>Fresh Lime Roasted Salmon with Ginger Sauce</h3>
+        <p>⏱ 25 min | ⭐ 4.9</p>
+      </div>
+
+      <div class="recipe-card">
+        <img src="https://s3.eu-west-1.wasabisys.com/cdn.linwoodshealthfoods.com/wp-content/uploads/2025/03/13161821/Website-square-4.png" alt="Pancake">
+        <h3>Strawberry Oatmeal Pancake</h3>
+        <p>⏱ 20 min | ⭐ 4.6</p>
+      </div>
+
+      <div class="recipe-card">
+        <img src="https://myfoodstory.com/wp-content/uploads/2019/07/creamy-chicken-meatballs-in-mushroom-sauce-1.jpg" alt="Chicken Meatballs">
+        <h3>Chicken Meatballs with Cream Cheese</h3>
+        <p>⏱ 35 min | ⭐ 4.7</p>
+      </div>
+
+      <div class="recipe-card">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSKtVTAVx3gLrGmx37yexk6kwS2LBNx-5vc2Q&s" alt="Fruity Pancake">
+        <h3>Fruity Pancake with Orange & Blueberry</h3>
+        <p>⏱ 15 min | ⭐ 4.5</p>
+      </div>
+
+      <div class="recipe-card">
+        <img src="https://eightforestlane.com/wp-content/uploads/2021/11/Chicken-Fried-Rice_WEB-9.jpg" alt="Fried Rice">
+        <h3>The Best Easy Chicken Fried Rice</h3>
+        <p>⏱ 25 min | ⭐ 4.9</p>
+      </div>
+
+      <div class="recipe-card">
+        <img src="https://www.jocooks.com/wp-content/uploads/2019/06/cheesy-chicken-broccoli-pasta-1-13-1.jpg" alt="Pasta">
+        <h3>The Creamiest Cheesy Chicken & Broccoli Pasta</h3>
+        <p>⏱ 40 min | ⭐ 4.8</p>
+      </div>
+
+      <div class="recipe-card">
+        <img src="https://www.eatingwell.com/thmb/0BBmt8Op_mSR1FLYk2rBXOwYx0Y=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/53296331-a4a2dacb472347eaba4d8a87f60af6d0.jpg" alt="Salad">
+        <h3>Avocado and Quinoa Salad</h3>
+        <p>⏱ 20 min | ⭐ 4.7</p>
+      </div>
+
+      <div class="recipe-card">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQMhDvryn5VB2ERGtjs2lkMpJrGiABc-f6JVQ&s" alt="Noodles">
+        <h3>Spicy Asian Noodles with Shrimp</h3>
+        <p>⏱ 30 min | ⭐ 4.9</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Subscribe -->
+  <section class="subscribe">
+    <h2>Deliciousness to your inbox</h2>
+    <p>Get the latest recipes and cooking tips every week!</p>
+    <form>
+      <input type="email" placeholder="Your email address" required>
+      <button type="submit">Subscribe</button>
+    </form>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2025 FreshFood. Powered by Mehriban.</p>
+    <div class="social">
+      <a href="#">🐦</a>
+      <a href="#">📘</a>
+      <a href="#">📸</a>
+    </div>
+  </footer>
+</body>
+</html>
